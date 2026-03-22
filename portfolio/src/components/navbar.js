@@ -1,0 +1,36 @@
+import React from "react";
+import {
+  FaInstagram,
+  FaEnvelope,
+  FaWhatsapp,
+  FaLinkedinIn,
+} from "react-icons/fa";
+import "../styles/navbar.css";
+
+function Navbar() {
+  return (
+    <>
+      <header className="top-nav">
+        <nav className="top-nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About Me</a>
+          <a href="#contact">Contact me</a>
+        </nav>
+      </header>
+
+      <aside className="side-nav">
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+          <FaInstagram />
+        </a>
+        <a href="mailto:your@email.com">
+          <FaEnvelope />
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <FaLinkedinIn />
+        </a>
+      </aside>
+    </>
+  );
+}
+
+export default Navbar;
