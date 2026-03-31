@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaInstagram,
-  FaEnvelope,
-  FaWhatsapp,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaInstagram, FaEnvelope, FaLinkedinIn } from "react-icons/fa";
 import "../styles/navbar.css";
 
 function Navbar() {
@@ -19,7 +14,11 @@ function Navbar() {
       </header>
 
       <aside className="side-nav">
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.instagram.com/mitsangeloo/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaInstagram />
         </a>
         <a href="mailto:your@email.com">

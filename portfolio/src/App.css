@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 #root {
@@ -9,12 +13,19 @@ body,
   padding: 0;
   width: 100%;
   overflow-x: hidden;
+  background-color: #f5faf8;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 .app-container {
   width: 100%;
   min-height: 100vh;
-  overflow-x: hidden;
-  position: relative;
   background-color: #f5faf8;
+}
+
+.main-container {
+  width: 100%;
 }
