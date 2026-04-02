@@ -9,7 +9,7 @@ import "../styles/footer.css";
 
 function Footer() {
   return (
-    <footer className="footer" id="contact">
+    <footer className="footer" id="footer">
       <div className="footer-wrapper">
         <div className="footer-line"></div>
 

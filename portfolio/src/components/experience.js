@@ -27,15 +27,14 @@ function Experience() {
               <p className="project-role">
                 <span>Role :</span>
                 <br />
-                Mobile App Developer
+                Front-end Developer
               </p>
               <p className="project-description">
-                A missing person reporting and tracking system that enables
-                families to submit cases and volunteers to assist in locating
-                individuals. Developed the mobile application and backend
-                services, including API integration, real-time notifications,
-                and role-based functionality to support efficient communication
-                and case management.
+                Developed a mobile application for defibrillator training
+                simulations, enabling real-time communication between instructor
+                and student devices using WebSockets. Implemented API
+                integration, role-based functionality, and responsive UI to
+                support interactive and efficient training sessions.
               </p>
             </div>
           </div>

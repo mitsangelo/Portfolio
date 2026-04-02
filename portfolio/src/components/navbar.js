@@ -8,8 +8,9 @@ function Navbar() {
       <header className="top-nav">
         <nav className="top-nav-links">
           <a href="#home">Home</a>
-          <a href="#about">About Me</a>
-          <a href="#contact">Contact me</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#project">Project</a>
         </nav>
       </header>
 

@@ -80,6 +80,7 @@
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .hero_button:hover {
@@ -88,12 +89,44 @@
   transform: translateY(-2px);
 }
 
-.hero_right {
-  background: #dddddd;
+.image-wrapper {
+  position: relative;
+  width: 320px;
+  height: 420px;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 480px;
+}
+
+.hero_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+.shape {
+  position: absolute;
+  width: 130%;
+  height: 130%;
+  background: #2f7f73;
+  z-index: 1;
+  /* blob style */
+  border-radius: 40% 60% 60% 40% / 60% 40% 60% 40%;
+  transform: rotate(-160deg);
+}
+
+.shape::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #193d3e;
+  opacity: 0.2;
+  border-radius: inherit;
+  transform: rotate(30deg);
 }
 
 /* Large desktop */

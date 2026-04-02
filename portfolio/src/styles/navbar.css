@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: #f5faf8;
+  background-color: transparent;
 }
 
 .top-nav-links {
@@ -21,7 +21,7 @@
 .top-nav-links a {
   text-decoration: none;
   color: #6d7975;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 600;
   transition: all 0.3s ease;
 }

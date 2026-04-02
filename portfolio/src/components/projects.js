@@ -6,7 +6,7 @@ import bgImage3 from "../assets/project-background3.png";
 
 function Project() {
   return (
-    <section className="project" id="projects">
+    <section className="project" id="project">
       <div className="project-wrapper">
         <div className="project-header">
           <p className="project-title">My Projects</p>

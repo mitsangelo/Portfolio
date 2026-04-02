@@ -7,7 +7,7 @@ import DJANGO from "../assets/django.png";
 
 function Skills() {
   return (
-    <section className="about" id="about">
+    <section className="about" id="skills">
       <div className="text-container">
         <h1 className="title">What I do</h1>
         <p className="description">

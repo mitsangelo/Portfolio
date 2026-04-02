@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.css";
+import profileImg from "../assets/mypicture.png";
 
 function Home() {
   return (
@@ -17,12 +18,17 @@ function Home() {
         </div>
 
         <div className="hero_actions">
-          <button className="hero_button">Download CV</button>
+          <a href="/Resume.pdf" className="hero_button" download>
+            Download Resume
+          </a>
         </div>
       </div>
 
       <div className="hero_right">
-        <h1>Right Content</h1>
+        <div className="image-wrapper">
+          <div className="shape"></div>
+          <img src={profileImg} alt="Mitch Angelo" className="hero_image" />
+        </div>
       </div>
     </section>
   );
